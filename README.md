@@ -3,3 +3,4 @@
 
 ## resources 
 https://discoverthreejs.com/book
+https://en.wikipedia.org/wiki/Viewing_frustum
