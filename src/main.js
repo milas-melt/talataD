@@ -8,7 +8,16 @@ function main() {
   const world = new World(container);
 
   // 2. Render the scene
-  world.render();
+  return world.render();
+  /*
+  to use a button to enable render:
+
+  const render_button = document.querySelector("#render_button")
+  render_button.onclick = function(){
+    return world.render();
+  };
+  */
+  
 }
 
 main();

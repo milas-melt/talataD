@@ -9,7 +9,7 @@ function createCube() {
 
   // create a Mesh containing the geometry and material
   const cube = new Mesh(geometry, material);
-
+  cube.position.set(3,0,0);
   return cube;
 }
 
